@@ -80,6 +80,10 @@ main {
   zoom: 0.5;
 }
 
+.Mensajito {
+  z-index: -20;
+}
+
 .cover {
   position: absolute;
   border-left: 600px solid transparent;
