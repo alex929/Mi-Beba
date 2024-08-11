@@ -75,6 +75,10 @@ main {
   height: 120vh;
 }
 
+.Mensajito {
+  z-index: -20;
+}
+
 .container-letter {
   position: relative;
   zoom: 0.5;
@@ -86,7 +90,7 @@ main {
   border-right: 600px solid transparent;
   border-top: 300px solid #fe3334;
   border-bottom: 300px solid transparent;
-
+  z-index: 100;
   /*  */
   transition: transform 0.75s;
   transform-origin: top;
