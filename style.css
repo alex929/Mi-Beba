@@ -29,12 +29,6 @@ svg {
   size: 2rem;
 }
 
-.Mensajito {
-  display: flexbox;
-  text-align: start;
-  justify-content: center;
-}
-
 .paper {
   display: flex;
   flex-direction: column;
