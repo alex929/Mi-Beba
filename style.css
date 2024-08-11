@@ -25,10 +25,6 @@ svg {
   max-width: 100%;
 }
 
-.tenor-gif-embed {
-  size: 2rem;
-}
-
 .paper {
   display: flex;
   flex-direction: column;
