@@ -25,6 +25,10 @@ svg {
   max-width: 100%;
 }
 
+.tenor-gif-embed {
+  size: 2rem;
+}
+
 .paper {
   display: flex;
   flex-direction: column;
@@ -74,11 +78,6 @@ main {
 .container-letter {
   position: relative;
   zoom: 0.5;
-  z-index: -5;
-}
-
-.Mensajito {
-  z-index: -20;
 }
 
 .cover {
@@ -87,7 +86,7 @@ main {
   border-right: 600px solid transparent;
   border-top: 300px solid #fe3334;
   border-bottom: 300px solid transparent;
-  z-index: -10;
+
   /*  */
   transition: transform 0.75s;
   transform-origin: top;
@@ -105,7 +104,7 @@ main {
   background: white;
   width: 1190px;
   height: 100%;
-  overflow: scroll;
+  overflow-y: scroll;
 
   transition: all 0.75s;
 }
